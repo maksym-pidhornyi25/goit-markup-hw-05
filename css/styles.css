@@ -523,7 +523,7 @@ img {
 
 .footer-subscribe {
   margin-left: auto;
-  padding-right: 159px;
+  padding-right: 161px;
 }
 
 .footer-subscribe-descr {
@@ -531,7 +531,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -547,7 +547,8 @@ img {
   background-color: transparent;
   font-size: 12px;
   line-height: 2;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
+  padding: 0;
   padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -564,16 +565,27 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  padding: 0;
 }
 
 .icon-frame {
   margin-left: 16px;
+  fill: #ffffff;
+}
+
+.submit-btn:focus,
+.submit-btn:hover {
+  background-color: #31d0aa;
+}
+.footer-input:focus,
+.footer-input:hover {
+  border: 1px solid #31d0aa;
 }
 
 /* modal */
